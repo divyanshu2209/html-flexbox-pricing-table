@@ -1,0 +1,55 @@
+.body {
+  font-family: "EB Garamond", serif;
+  background-color: antiquewhite;
+}
+.pricing-plan {
+  flex: 1;
+  max-width: 300px;
+  background-color: #e6d4d3;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #e6d4d3;
+  border-radius: 3%;
+  text-align: center;
+}
+.pricing-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.plan-heading {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+}
+.plan-price {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+}
+.plan-features ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 2px;
+}
+.plan-features ul li {
+  margin: 10px;
+}
+.button button {
+  background-color: orange;
+  color: white;
+  border: 0px solid orange;
+  border-radius: 10%;
+  padding: 5px;
+  margin: 2px;
+}
+@media (max-width: 1250px) {
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+  }
+}
